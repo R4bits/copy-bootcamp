@@ -1,16 +1,46 @@
 
-const auto = [`Citroen`, `Renault`, `Opel`]
+const numbers = [4, 8, 24, 32, 8]
+const pares = []
+const impares = []
 
-auto[auto.length] = `Fiat`
+for (const number of numbers) {
+    const randomNum = Math.floor(Math.random() * (10 - 1 + 1) + 1)
+    const multiplier = number * randomNum
 
-console.log(auto[2])
+    if (multiplier % 2 === 0) pares.push(multiplier)
+    else impares.push(multiplier)
 
-auto[auto.length] = [`Kia`, `Audi`]
+    console.log(number + ' x ' + randomNum + '= ' + multiplier)
+}
+console.log('Pares: ' + pares + '\n' + 'Impares: ' + impares)
 
-console.log(auto[4][1])
 
-let autovar = [...auto[4]]
 
-console.log(auto)
-console.log(autovar)
 
+
+
+
+
+
+// Ejercicio 02
+
+// const userNum = []
+
+// for (let trys = 5; trys === 0; trys--) {
+//     let input = prompt('Dime un numero')
+
+//     if (!userNum.includes(input)) {
+//         userNum.push(input)
+
+//     } else {
+//         trys++
+//         console.log('Ya has puesto este número, prueba con otro')
+//     }
+// }
+// console.log(userNum)
+
+// for (const number of userNum) {
+//     if () {
+
+//     }
+// }

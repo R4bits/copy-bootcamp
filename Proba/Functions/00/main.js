@@ -11,14 +11,10 @@ function compa(num1, num2) {
 
 // compa(4, 8)
 
-
 function bool(num1, num2) {
-    if (num1 === num2) {
-        console.log('True')
-
-    } else console.log('False')
+    if (num1 === num2) console.log('True')
+    else console.log('False')
 }
 
 // bool(8, 4)
 
-function 
