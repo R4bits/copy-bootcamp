@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: pink;
+  padding: 0.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+nav {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  display: inline-flex;
+  gap: 250px;
+}

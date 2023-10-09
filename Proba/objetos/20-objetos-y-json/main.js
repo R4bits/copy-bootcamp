@@ -184,10 +184,16 @@ const luke = {
 // imprime en consola el color de ojos usando los corchetes en lugar del punto
 
 
-console.log('Nombre: ' + luke.name + "\nAltura: " + luke.height)
+console.log('\nNombre: ' + luke.name + "\nAltura: " + luke.height)
 
-luke.hair_color = 'brown'
+luke.hair_color = 'brown\n'
 
-console.log(luke.films)
+let counter = 0
+for (const movie of luke.films) {
+    counter++
 
-console.log(luke[eye_color])
+    console.log('Peli ' + counter + ': ' + movie)
+}
+
+console.log(luke['eye_color'])
+

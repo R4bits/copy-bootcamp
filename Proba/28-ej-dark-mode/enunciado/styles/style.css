@@ -1,0 +1,18 @@
+button {
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    text-align: center;
+}
