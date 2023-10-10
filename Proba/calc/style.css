@@ -1,0 +1,44 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin: 0 1rem;
+    padding: 0.3rem 1rem;
+    border: solid black 0.2rem;
+    background-color: hsl(0, 0%, 95%);
+}
+
+button {
+    margin: 1.3rem;
+    border-radius: 10%;
+    padding: 0.4rem;
+    color: white;
+    border-color: black
+}
+
+.result {
+    font-weight: 900;
+    border: solid crimson;
+    max-width: max-content;
+    padding: 1rem 2.5rem;
+    margin: 1rem auto;
+}
+
+.sumar {
+    background-color: crimson;
+}
+
+.restar {
+    background-color: green;
+}
+
+.multiplicar {
+    background-color: royalblue;
+}
+
+.dividir {
+    background-color: indigo;
+}
