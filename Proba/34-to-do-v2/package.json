@@ -1,10 +1,11 @@
 {
-  "name": "to-do-v2",
+  "name": "34-to-do-v2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:host": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -13,5 +14,8 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.1"
   }
 }

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toDo-list {
+    scroll-snap-type: y mandatory;
+}
+
+
+.toDo-item {
+    scroll-snap-align: start;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: white;
+    padding-left: 2px;
+  
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(197, 197, 197);
+}
