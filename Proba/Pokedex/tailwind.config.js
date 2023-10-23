@@ -5,8 +5,10 @@ export default {
     `./main.js`
   ],
   theme: {
+    fontFamily: {
+      'sans': ['system-ui']
+    },
     extend: {},
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
-
