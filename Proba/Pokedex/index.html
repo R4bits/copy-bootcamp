@@ -8,18 +8,29 @@
   <title>Pokedex</title>
 </head>
 
-<body class=" text-center bg-gradient-to-tl to-blue-500 from-red-500 min-h-screen font-sans">
-  <h1 class="m-10 font-extrabold text-5xl">Pokemon App</h1>
-  <form action="">
-    <datalist id="pokemon">
+<body class=" text-center bg-gradient-to-br from-purple-500 to-pink-500 min-h-screen font-sans">
 
-    </datalist>
-    <input type="text" list="pokemon" name="pokemon" placeholder="pikachu"
-      class="m-5 border-black border-2 placeholder:text-center p-1 focus: outline-none ring-2 ring-pink-400">
-  </form>
 
-  <main
-    class="grid justify-center items-center content-center justify-items-center w-2/4 grid-cols-4 my-10 mx-auto gap-x-[5rem] gap-y-5  ">
+  <main class="container mx-auto flex flex-col items-center">
+
+    <h1 class="my-6 font-extrabold text-5xl text-white">Pokemon App</h1>
+
+    <form class="flex flex-col gap-4 items-center">
+
+      <datalist id="pokemon"></datalist>
+
+      <input type="text" list="pokemon" name="pokemon" placeholder="pikachu"
+        class="px-4 py-2 rounded shadow-md focus:outline-none border-black border-2 placeholder:text-center p-1">
+
+      <button class="bg-purple-600 rounded text-white py-2 px-4 hover:bg-purple-500 transition-colors">¡Yo te
+        elijo!</button>
+
+    </form>
+
+    <section class="output my-6 w-full px-12">
+
+    </section>
+
   </main>
 
   <script src="./main.js"></script>
